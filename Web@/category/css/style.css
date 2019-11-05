@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	padding: 0px;
+	background-color:#4a4a4a;
+}
+.navbar-brand{
+	width:70px;
+	margin-left:50px;
+}
+.navbar-brand img{
+	height: 60px;
+	width: 80px;
+}
+.name{
+	margin-top:7px;
+	font: sans-serif;
+	color: white;
+}
+.search-area{
+	width:800px;
+	height:60px;
+	float: left;
+	margin-left:50px;
+}
+.search-box{
+	margin-left:60px;
+	width: 500px;
+	padding:6px;
+	margin-top: 10px;
+	float:left;
+	border-top-left-radius:3px;
+}
+.search-btn{
+	width: 60px;
+	padding:7px;
+	margin-top: 10px; 
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	float: left;
+}
+.search-area a{
+	float: right;
+	text-decoration: none;
+ 	color: white;
+ 	margin-top: 16px;
+ 	display: block;
+}
+/* this is for user-menu====*/
+.user-menu{
+	margin-right:30px;
+	width:350px;
+	height:60px;
+	float: right;
+}
+ .user-menu ul{
+ 	float: right;
+ }
+ .user-menu ul li{
+ 	list-style: none;
+ 	float: left;
+ 	height: 60px;
+ 	width: 150px;
+    text-align: center;
+ }
+ .user-menu ul li a{
+ 	text-decoration: none;
+ 	color: white;
+ 	margin-top: 14px;
+ 	display: block;
+ }
+  #accnt{
+ 	margin-top: 100px;
+ 	display: none;
+ 	margin-left:500px;
+ }
+ #sell{
+    margin-top: 100px;
+    display: none;
+ }
+ #panel{
+ 	width:800px;
+ 	margin-right: 20px;
+ }
+ #bd{
+ 	text-align: center;
+ }
+ 
+ #btn{
+ 	float: left;
+ 	padding: 5px;
+ 	margin-left: 20px;
+ }
+ .container-fluid{
+ 	margin-top:70px;
+ }
+
+ .raj{
+ 	margin-left: 20px;
+ }
+.card-body ul li{
+	list-style: none;
+	padding: 5px;
+
+}
+.card-body ul li a{
+	text-decoration: none;
+	color: white;
+}
+#card{
+	overflow: hidden;
+}
+#card img{
+	margin-left: 200px;
+	width:100px;
+	height: 150px;
+	transition:all 0.5s ease-in-out;
+}
+#card:hover img{
+	transform:scale(1.3,1.3);
+	transition:all 0.5s ease-in-out;
+}
+#card a{
+	text-decoration: none;
+}
+#span{
+	float: right;
+	margin-right:40px;
+	color: blue;
+}
+#span1{
+	float: right;
+	margin-right:40px;
+}
+#form4{
+	margin-left: 20px;
+}
+.col-md-2 a{
+	text-decoration: none;
+}
+#product_view{
+	display: none;
+     position:relative;
+}
+#exzoom ul li{
+	list-style: none;
+	height: 600px;
+	overflow: hidden;
+}
+#exzoom ul li img{
+	width:500px;
+	height: 600px;
+}
+#check-order,#payment,#orders,.check,#bhai,.releted{
+	display: none;
+}
+#bhai{
+	margin-top: 80px;
+}
+#bhai img{
+  width: 300px;
+  height: 350px;
+}
+/*-------this is for footer---*/
+.jumbotron{
+	background-color: #4a4a4a;
+	width: 100%;
+	border-radius: 0px;
+	padding: 0px;
+}
+.jumbotron .follow{
+	margin-left:80px;
+	color: white;
+}
+.jumbotron .seller{
+	width:400px;
+	margin-left:40px;
+	color: white;
+}
+.jumbotron ul{
+	margin-top: 35px;
+}
+.jumbotron ul li{
+	list-style: none;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.jumbotron a, #add{
+	color: white;
+	text-decoration-line: none;
+	font-size: 12px;
+}
+.jumbotron a:hover{
+	color:blue;
+}
+/*-- this is for cart--*/
+#cart{
+	height: 300px;
+}
+#total{
+	float: right;
+	margin: 40px;
+	
+}
+

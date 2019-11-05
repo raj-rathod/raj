@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	padding: 0px;
+	background-color:#4a4a4a;
+	height: 70px;
+}
+.navbar-brand{
+	width:70px;
+	margin-left:50px;
+}
+.navbar-brand img{
+	height: 60px;
+	width: 80px;
+}
+.name{
+	font: sans-serif;
+	color: white;
+}
+.navbar-nav{
+	margin-left:800px;
+}
+.nav-item {
+	padding: 10px;
+}
+
+/* this is for slider*/
+.slider-area{
+	padding:0px;
+	width: 100%
+	height: 350px;
+	margin-top:70px;
+}
+.slider-area .slider img{
+	width:100%;
+	height: 350px;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+}
+.bx-wrapper{
+	border-style: none;
+	margin-bottom:0px;
+}
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager{
+	bottom:30px;
+}
+.slider-content{
+	position: absolute;
+	top: 60px;
+	left: 100px;
+	width: 600px;
+}
+.slider-content button{
+	margin-top:80px;
+}
+
+/*----this is for seller ----*/
+#contain{
+	padding: 0px;
+	margin: 0px;
+	
+}
+.bt{
+	margin: 20px;
+	padding: 20px;
+	margin-left:100px;
+	color: white;
+}
+#bt1,#bt2{
+	margin-left: 200px;
+}
+
+.form1,.form,#list,#store,#sell,.step-2,.step-3{
+	display: none;
+}
+#fr1{
+	height: 500px;
+	margin-bottom: 30px;
+}
+#raj{
+	margin-top: 70px;
+}
+
+#input-group {
+	margin: 5px 5px 5px 5px;
+	padding:5px;
+}
+
+#input-group label {
+	display: block;
+	text-align: left;
+	margin: 5px;
+}
+#input-group input {
+	height:40px;
+	width:50%;
+	padding: 10px 5px;
+	font-size: 13px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+#eye,#eye1{
+	position: absolute;
+	font-size: 25px;
+	margin-left: 340px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+#eye1{
+	display: none;
+}
+#btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 100%;  
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: white; 
+	background:#4a4a4a; 
+	text-align: center;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.head1{
+	margin-top: 80px;
+}
+#add2{
+	margin-left: 600px;
+}
+/*-------this is for footer---*/
+.jumbotron{
+	background-color: #4a4a4a;
+	width: 100%;
+	border-radius: 0px;
+	padding: 0px;
+}
+.jumbotron .follow{
+	margin-left:80px;
+	color: white;
+}
+.jumbotron .seller{
+	width:400px;
+	margin-left:40px;
+	color: white;
+}
+.jumbotron ul{
+	margin-top: 35px;
+}
+#add1 .follow{
+	color: white;
+	text-align: center;
+
+}
+.jumbotron ul li,#add1 li{
+	list-style: none;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.jumbotron a, #add{
+	color: white;
+	text-decoration-line: none;
+	font-size: 12px;
+}
+.jumbotron a:hover{
+	color:blue;
+}
+#step2,#step-3b,#step3,#return1,#sell_order1,#step-2,#step-3,#gm_seller{
+	display: none;
+}

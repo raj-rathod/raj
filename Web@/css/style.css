@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	padding: 0px;
+	background-color:#4a4a4a;
+}
+.navbar-brand{
+	width:70px;
+	margin-left:50px;
+}
+.navbar-brand img{
+	height: 60px;
+	width: 80px;
+}
+.name{
+	margin-top:7px;
+	font: sans-serif;
+	color: rgb(253, 253, 253);
+}
+.search-area{
+	width:800px;
+	height:60px;
+	float: left;
+	margin-left:50px;
+}
+.search-box{
+	margin-left:60px;
+	width: 500px;
+	padding:6px;
+	margin-top: 10px;
+	float:left;
+	border-top-left-radius:3px;
+}
+.search-btn{
+	width: 60px;
+	padding:7px;
+	margin-top: 10px; 
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	float: left;
+}
+.search-area a{
+	float: right;
+	text-decoration: none;
+ 	color: white;
+ 	margin-top: 16px;
+ 	display: block;
+}
+/* this is for user-menu====*/
+.user-menu{
+	margin-right:30px;
+	width:350px;
+	height:60px;
+	float: right;
+}
+ .user-menu ul{
+ 	float:right;
+ }
+ .user-menu ul li{
+ 	list-style: none;
+ 	float: right;
+ 	height: 60px;
+ 	width: 150px;
+    text-align: center;
+ }
+ .user-menu ul li a{
+ 	text-decoration: none;
+ 	color: white;
+ 	margin-top: 14px;
+ 	display: block;
+ }
+ #accnt{
+ 	margin-top: 100px;
+ 	display: none;
+ 	margin-left:500px;
+ }
+ #sell{
+    margin-top: 100px;
+    display: none;
+ }
+  #panel{
+ 	width:800px;
+ 	margin-right: 20px;
+ }
+ #bd{
+ 	text-align: center;
+ }
+ #bhai{
+ 	margin-top: 70px;
+ }
+ /* this is for slider*/
+.slider-area{
+	padding:0px;
+	width: 100%
+	height:350px;
+	margin-top:70px;
+}
+.slider-area .slider img{
+	width:1000px;
+	height:350px;
+	float: right;
+}
+.bx-wrapper{
+	margin-bottom:0px;
+	border-style: none;
+}
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager{
+	bottom:20px;
+}
+.slider-content{
+	position:relative;
+	top: 150px;
+	left: 100px;
+	width: 600px;
+}
+.slider-content button{
+	margin-top:80px;
+}
+ .carousel-item img{
+ 	width:70%;
+ 	height: 350px;
+ 	float:right;
+ }
+ .add{
+ 	margin-left: 30px;
+ 	width:40%;
+ }
+ .add h2{
+ 	color:white;
+ 	text-align: center;
+ 	padding: 20px;
+ 	position:relative;
+ }
+#card-body{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height:250px;
+	overflow: hidden;
+}
+#card-body img{
+	width: 100%;
+	height:250px;
+	transition:all 0.5s ease-in-out;
+}
+#card-body:hover img{
+	transform:scale(1.3,1.3);
+	transition:all 0.5s ease-in-out;
+}
+.col-sm-3 img{
+	width: 250px;
+	height: 300px;
+}
+.container-fluid{
+	padding: 5px;
+}
+.container-fluid a{
+	text-decoration: none;
+	left: 30px;
+	color: white;
+}
+#card-img{
+	padding: 10px;
+	width: 70%;
+	height:200px;
+	overflow: hidden;
+}
+#card-img img{
+	width: 200px;
+	height: 200px;
+	transition:all 0.5s ease-in-out;
+}
+#card-img:hover img{
+	transform:scale(1.15,1.15);
+	transition:all 0.5s ease-in-out;
+}
+#card-img {
+	position: relative;
+}
+.card-header a{
+	text-decoration: none
+}
+#span{
+	float: right;
+	margin-right:40px;
+	color: blue;
+}
+#span1{
+	float: right;
+}
+#card1{
+	overflow: hidden;
+}
+#card1 img{
+  position: relative;
+	width: 180px;
+	height: 250px;
+	transition:all 0.5s ease-in-out;
+}
+#card1:hover img{
+	transform:scale(1.15,1.15);
+	transition:all 0.5s ease-in-out;
+}
+#card1 a{
+	text-decoration: none;
+}
+.id1{
+	list-style: none;
+	float: left;
+}
+#search_p{
+	display: none;
+}
+
+#about_us img{
+	width:150px; 
+	height:150px;
+}
+#about_us .card p{
+	display:none;
+	margin-left: 20px;
+	font-size:15px;
+}
+#team{
+	display: none;
+}
+#bhai{
+	display: none;
+}
+#bhai img{
+  width: 300px;
+  height: 350px;
+}
+#add2{
+	margin-top: 70px;
+
+}
+/*-------this is for footer---*/
+.jumbotron{
+	background-color: #4a4a4a;
+	width: 100%;
+	border-radius: 0px;
+	padding: 0px;
+}
+.jumbotron .follow{
+	margin-left:80px;
+	color: white;
+}
+.jumbotron .seller{
+	width:400px;
+	margin-left:40px;
+	color: white;
+}
+.jumbotron ul{
+	margin-top: 35px;
+}
+.jumbotron ul li{
+	list-style: none;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.jumbotron a, #add{
+	color: white;
+	text-decoration-line: none;
+	font-size: 12px;
+}
+.jumbotron a:hover{
+	color:blue;
+}
+#step2,#step-3b,#step3{
+	display: none;
+}
+#sell_info1,#gm_info1,#today,#can_order,#ret_order,#sell_prod{
+	display: none;
+}
