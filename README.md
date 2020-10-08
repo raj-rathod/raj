@@ -30,7 +30,7 @@ step 3:- Start Xampp server and start apache and mysql
 
 step 4:- open phpmyadmin using this link http://localhost/phpmyadmin/ and create a database with name (fts) name should be same otherwise it so error
 
-step 5:- inside the project folder a  sql folder has fts.sql is import in phpmyadmin inside fts database
+step 5:- inside the project folder a fts.sql is import in phpmyadmin inside fts database
 
 step 6:- check your project http://localhost/Web@/
 
